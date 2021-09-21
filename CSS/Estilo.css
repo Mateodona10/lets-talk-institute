@@ -1,0 +1,58 @@
+
+body {
+  font-family: 'Handlee', cursive;
+  font-size: 13pt;
+  background-color: #efefef;
+  padding: 10px;
+  margin: 0;
+} 
+
+
+.injected-text{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg)  ;
+    background-size: cover;
+    opacity: 0.9;
+  }
+
+.box {
+    text-align: center;
+    box-sizing: border-box; 
+    border-style: solid;
+    border-color:black;
+    border-width: 5px;
+  }
+
+  .titulo-header   {
+    font-size: 90px;
+    font-family: sans-serif ;
+    margin-top: 0px ;
+    color: black  ;
+    text-align: left;
+  }
+
+  .principal-box {
+    color: black;
+    padding: 5px;
+    border: 1px 1px 1px 1px;
+  }
+
+
+button {
+  color:black;
+  margin: 5px 5px 5px 5px;
+
+}
+
+
+a { 
+  color: black;
+} 
+
+img {
+  
+  width: 400px;
+  height: 300px;
+}
