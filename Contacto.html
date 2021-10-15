@@ -11,49 +11,89 @@
 
 <body> 
 
-    <header class="injected-text">
+    <header class="cabecera">
 
-        <div class="box box-principal">
-            <h1 class="titulo-header">
-                Let's talk
-            </h1>
-            <button>
-                <a href = "index.html"> Incicio</a> 
-            </button>
-            <button>
-                <a href = "Clases.html">Clases</a> 
-            </button>
-            
-            <button>
-                <a href="Examenes.html"> Exámenes </a>
-            </button>
-            <button>
-                <a href="Contacto.html"> Contacto </a>
-            </button>
 
-        </div>
+        <img class="logo" src="Imagenes/logo.svg" alt="Logotipo de mi proyecto">
 
+        <nav class="navegacion">
+
+      
+            <a class="navegacion__enlace" href="index.html">Inicio</a>
+     
+    
+            <a class="navegacion__enlace" href="Clases.html">Clases</a>
+      
+    
+       
+            <a class="navegacion__enlace" href="Examenes.html">Examenes</a>
+      
+    
+            <a class="navegacion__enlace" href="Contacto.html">Contacto</a>
+       
+        </nav>
 
     </header>
-           
+        
+
 
 
         
     
     
     <main>
+        <p>
+            ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium earum, nulla, soluta autem dolore tempore quidem illum, quos sunt provident vitae. Est nulla dignissimos beatae error illum natus alias quae?
+        </p>
 
-        <ul>
-            <li>123456789</li>
-            <li> mailfalso1234@gmail.com </li>
-            <li> <a href = "https://goo.gl/maps/aTBsgPpNLrWeZxYH6" target = "_blank"> Calle falsa 1234 </a> </li> 
+        <div class="contendor_contactos">
+            <ul>
+                <li>123456789</li>
+                <li> mailfalso1234@gmail.com </li>
+                <li> <a href = "https://goo.gl/maps/aTBsgPpNLrWeZxYH6" target = "_blank"> Calle falsa 1234 </a> </li> 
             </ul>
-            
-        
+        </div> 
+
+        <form action="">
+            <fieldset>
+                <legend>Datos de perfil</legend>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre"  id="nombre" placeholder="Ingresa tu nombre" id="nombre">
+                </div>
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido">
+                </div>
+                <div>
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="Ingresa tu telefono">
+                </div>
+                <div>
+                    <label for="edad">Edad</label>
+                    <input type="number" name="numero" id="edad" placeholder="Puedes ingresar solo numeros">
+                </div>
+                <div>
+                    <label for="comentario">Comentario</label>
+                    <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                </div>
+            </fieldset>
+        </form>
     </main>
     <footer>
+        <a href="" alt="instagram" class="links_footer">
+            Instagram
+        </a>
 
+        <a href="" alt="facebook" class="links_footer">
+            Facebook
+        </a>
+
+        <a href="" alt="Linkedin" class="links_footer">
+            Linkedin
+        </a>
     </footer>
+
 
 
 
